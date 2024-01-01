@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        #tab{
+            background-color: aliceblue;
+            height: 60px;
+            padding: 20px;
+            margin: 10px;
+        }
+        button{
+            background-color: lightgray;
+            color: black; 
+            float: left;
+            border: none;
+            cursor: pointer;
+            padding: 0px;
+            width: 25%;
+            height: 60px;
+        }
+        #about{
+            width: auto;
+            text-align: center;
+            background-color: lightsalmon;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        #headsubmath  {
+            background-color: lightgreen;
+            padding: 25px;
+        }
+
+        #headsubsci {
+            background-color: lightgreen;
+            padding: 25px;
+        }
+        #vid1submath {
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+            height: 270px;
+        }
+        #vid1subsci {
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+            height: 270px;
+        }
+        
+        #vid2math {
+            background-color: bisque;
+            padding: 10px;
+            margin: 10px;
+            height: 270px;
+        }
+        #vid2subsci {
+            background-color: bisque;
+            padding: 10px;
+            margin: 10px;
+            height: 270px;
+        }
+    
+        p {
+            font-size: 20px;
+        }
+        img {
+            width: 420px;
+        }
+    </style>
+    <title>Lesson05</title>
+</head>
+<body>
+        <div id="tab">
+            <button onclick="Show('about')"> About</button>
+            <button onclick="Show('submath')"> Math</button>
+            <button onclick="Show('subsci')"> Science</button>
+        </div>
+        <br>
+
+        <div id="about">
+            <h1>Fun Learning Videos</h1>
+            <p>This website has fun learning videos about Math and science.
+                Many kids laern better when the get to see things happening. Also, if the things are fun then it
+                adds to the learning of the kids.
+                We bring to you hand picked curated videos which will make the learning exciting for kids.
+            </p>
+            <img src="children.jpg">
+        </div>
+        
+        <div id="submath">
+            <div id="headsubmath"> 
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/28oMsiPfFAc?si=u3P-0i8F-zwY-O9A" title="YouTube video player" ></iframe>
+            <h1> Want to learn Math</h1>
+            <p>You might have heard that math is everywhere around us. But what does that mean?
+                We have got few exciting videos with examples which will help you understand that
+                Math is really everywhere around us and even insects us Math.</p> 
+        </div>
+
+        <br>
+
+        <div id="subsci">
+            <div id="headsubsci">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/KF-fuFu0zMk?si=aOqjXPcmcO9B0tpP" title="YouTube video player"></iframe>
+                <h1>Exciting Science Videos</h1>
+                <p>These exciting videos are going to make you love science and leran more.
+                    These hand picked videos are designed to build curiosity by showing things that you learnt
+                    before.
+                    let's get started.
+                </p>   
+        </div>
+           
+        
+        <div id="vid1submath">
+            <h1>Hello world!</h1>
+            <p>Honeybees are some of nature's finest mathematicians. Not only can they calculate 
+                the roundness of the earth, these smart insects build and live ove of the most
+                efficient architectural designs around: the beehive. Zack Peterson and Andy
+                TED-Ed.
+            </p>
+        </div>
+
+        
+       <div id="vid1subsci">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit magnam autem 
+                    ea saepe fugiat, hic sapiente ullam ad voluptatem blanditiis?</p>
+        </div>
+    
+</body>
+</html>
